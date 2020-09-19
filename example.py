@@ -2,9 +2,9 @@ import mysql.connector
 
 mydb = mysql.connector.connect(
   host="0.0.0.0",
-  port="6603",
+  port="6604",
   user="root",
-  password="pass1",
+  password="pass2",
   database="db"
 )
 
