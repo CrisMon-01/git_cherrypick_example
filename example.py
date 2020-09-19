@@ -10,7 +10,7 @@ mydb = mysql.connector.connect(
 
 mycursor = mydb.cursor()
 
-mycursor.execute("SELECT * FROM tab")
+mycursor.execute("SELECT * FROM tab2")
 
 myresult = mycursor.fetchall()
 
